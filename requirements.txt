@@ -1,0 +1,12 @@
+torch
+timm==0.5.4
+scikit-image
+ptflops
+easydict
+PyYAML
+pillow
+torchvision
+opencv-python
+tensorflow==2.15.*
+tensorflow_addons
+mmengine-lite
