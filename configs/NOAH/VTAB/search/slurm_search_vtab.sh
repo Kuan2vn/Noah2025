@@ -11,7 +11,7 @@ LIMITS=$1
 mkdir -p logs
 PYTHONPATH="$(dirname $0)/..":$PYTHONPATH
 
-for DATASET in cifar100 caltech101 dtd oxford_flowers102 svhn sun397 oxford_pet patch_camelyon eurosat resisc45 diabetic_retinopathy clevr_count clevr_dist dmlab kitti dsprites_loc dsprites_ori smallnorb_azi smallnorb_ele
+for DATASET in cifar100
 do
     # KHÔNG CẦN export MASTER_PORT TRÊN COLAB
     # export MASTER_PORT=$((12000 + $RANDOM % 20000))
