@@ -14,7 +14,7 @@ import os
 import yaml
 from lib.config import cfg, update_config_from_file
 
-from mmcv.runner import get_dist_info, init_dist
+from mmengine.dist import get_dist_info, init_dist
 
 import model as models
 from timm.models import load_checkpoint

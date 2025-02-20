@@ -26,7 +26,7 @@ do
             --output_dir=./saves/${DATASET}_supernet_lr-${LR}_wd-${WEIGHT_DECAY} \
             --batch-size=64 \
             --lr=${LR} \
-            --epochs=200 \
+            --epochs=500 \
             --weight-decay=${WEIGHT_DECAY} \
             --no_aug \
             --direct_resize \
