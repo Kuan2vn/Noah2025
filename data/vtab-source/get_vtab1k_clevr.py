@@ -29,7 +29,7 @@ dataset_config = [
     # ['patch_camelyon', dict()],
     # ['sun397', dict()],
     # ['svhn', dict()],
-    ['resisc45', dict()],
+    # ['resisc45', dict()],
     # ['eurosat', dict()],
     # ['dmlab', dict()],
     # ['kitti', dict(task='closest_vehicle_distance')],
@@ -37,7 +37,7 @@ dataset_config = [
     # ['smallnorb', dict(predicted_attribute='label_elevation',dataset_postfix='ele')],
     # ['dsprites', dict(predicted_attribute='label_x_position',num_classes=16,dataset_postfix='loc')],
     # ['dsprites', dict(predicted_attribute='label_orientation',num_classes=16,dataset_postfix='ori')],
-    # ['clevr', dict(task='closest_object_distance',dataset_postfix='dist')],
+    ['clevr', dict(task='closest_object_distance',dataset_postfix='dist')],
     # ['clevr', dict(task='count_all',dataset_postfix='count')],
     # ['diabetic_retinopathy', dict(config='btgraham-300')],
 ]
