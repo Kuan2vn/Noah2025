@@ -10,3 +10,4 @@ opencv-python
 tensorflow==2.15.*
 tensorflow_addons
 mmengine-lite
+gdown
