@@ -14,7 +14,7 @@ PYTHONPATH="$(dirname $0)/..":$PYTHONPATH
 
 for LR in 0.0005
 do
-    for DATASET in cifar100 caltech101 dtd oxford_flowers102 svhn eurosat dmlab dsprites_loc dsprites_ori smallnorb_azi smallnorb_ele
+    for DATASET in cifar100 caltech101 dtd
     do
         # KHÔNG CẦN export MASTER_PORT (không distributed training trên Colab)
         # KHÔNG CẦN srun (chạy trực tiếp python)
